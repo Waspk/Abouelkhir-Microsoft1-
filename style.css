@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    border: 2px solid #bdc3c7;
+    width: 180px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+.card-top{
+    margin: 5px;
+    font-size: 40px;
+    color: red;
+    
+    
+}
+.card-middle{
+    font-size: 80px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-bottom{
+ margin: 5px;
+ font-size: 40px;
+color: red;
+transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
